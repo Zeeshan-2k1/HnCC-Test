@@ -1,0 +1,48 @@
+.main {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info {
+  text-align: center;
+}
+
+.info img {
+  height: 300px;
+  border-radius: 50%;
+}
+.info img:hover {
+  transform: scale(1.5);
+  transition: 400ms ease-in-out;
+}
+.info h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #f9f871;
+}
+
+.info h2 {
+  font-size: 30px;
+  font-weight: 200;
+  color: aquamarine;
+}
+
+.info p {
+  width: 40%;
+  margin: 20px auto;
+}
+
+.social {
+  text-align: center;
+}
+.social a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+}
+.social a:hover {
+  font-size: 30px;
+  color: burlywood;
+}
